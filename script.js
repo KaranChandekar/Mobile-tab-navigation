@@ -10,3 +10,7 @@ listItems.forEach((item, idx) => {
     contents[idx].classList.add("show");
   });
 });
+
+function hideAllContents() {
+  contents.forEach((content) => content.classList.remove("show"));
+}
